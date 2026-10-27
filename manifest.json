@@ -1,0 +1,9 @@
+{
+  "id": "remote-nas-resource-adapter",
+  "name": "Remote NAS Resource Adapter (Windows preview)",
+  "version": "0.4.1",
+  "minAppVersion": "1.11.4",
+  "description": "Windows read-only WebDAV image adapter with strict HTTPS and bounded resources",
+  "author": "Local development",
+  "isDesktopOnly": true
+}

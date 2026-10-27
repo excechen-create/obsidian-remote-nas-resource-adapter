@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://nas.example.invalid:5006",
+  "username": "user",
+  "mappings": [
+    {
+      "windowsRoot": "C:\\NAS-Test\\SynologyDrive",
+      "webdavRoot": "/Data"
+    }
+  ],
+  "samplePaths": [],
+  "credentialSource": "session",
+  "passwordSecretId": ""
+}

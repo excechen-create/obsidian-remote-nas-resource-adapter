@@ -1,0 +1,17 @@
+node_modules/
+.npm-cache/
+runtime/
+test-vault/
+reports/
+release/
+dist/
+coverage/
+.cloud-export-owned.json
+*.log
+.env
+.env.*
+data.json
+*.pem
+*.key
+*.crt
+*.cer

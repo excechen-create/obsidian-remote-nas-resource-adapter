@@ -1,0 +1,3 @@
+img[data-nas-state="loading"] { opacity: .65; }
+img[data-nas-state="error"] { outline: 1px dashed var(--text-error, #c44); }
+.nas-poc-warning { color: var(--text-warning); }

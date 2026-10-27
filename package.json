@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-remote-nas-resource-adapter",
+  "version": "0.4.1",
+  "private": true,
+  "description": "Windows read-only WebDAV image adapter with strict HTTPS and bounded resources",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "node scripts/build.mjs",
+    "fixtures:tls": "node scripts/generate-tls-fixtures.mjs",
+    "verify": "npm run check && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "devDependencies": {
+    "@types/jsdom": "30.0.0",
+    "@types/node": "26.6.5",
+    "esbuild": "0.28.2",
+    "jsdom": "30.1.3",
+    "obsidian": "1.14.4",
+    "selfsigned": "5.5.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}
