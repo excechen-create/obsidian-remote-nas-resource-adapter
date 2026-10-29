@@ -20,6 +20,14 @@ will resolve to /Data/Researcher/example.jpg on the configured HTTPS origin. Mat
 
 Bare relative paths may be rendered as missing attachments by Obsidian and AM without image nodes. The supported fake absolute file URL lets the existing AM renderer and viewer operate normally. No placeholder images or original NAS files are copied into the Vault.
 
+## Install with BRAT
+
+The repository is public. In Obsidian, install and enable BRAT from Community plugins, then use Add beta plugin and enter `excechen-create/obsidian-remote-nas-resource-adapter`. Select `v0.4.1` if a version is requested and enable the installed adapter. The release supplies manifest.json, main.js and styles.css separately, as well as the ZIP.
+
+GitHub authentication is not required for public access, but anonymous API rate limits can affect BRAT, especially on shared VPN/proxy exits. Wait for the reset or download the release ZIP manually instead of granting broad token permissions. NAS credentials are unrelated to GitHub tokens.
+
+Install and enable Adjustable Media separately for AM layouts and its viewer. Keep session credentials as the default, verify HTTPS, then explicitly enable NAS images. Existing NAS-specific certificate profiles are not distributed in this repository. On a certificate failure, resolve the trust configuration; do not disable TLS validation.
+
 ## Build and install
 
 ~~~powershell
